@@ -1,0 +1,32 @@
+.pricing-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .pricing-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .pricing-table img {
+    width: auto; 
+    height: 120px; 
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  

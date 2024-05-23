@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: chocolate;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .profile img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    margin-top: 0;
+  }
+  
+  .skills, .projects {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .contact form input[type=text],
+  .contact form input[type=email],
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact form input[type=submit] {
+    background-color: chocolate;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact form input[type=submit]:hover {
+    background-color: chocolate;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .project {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+  }
+  
+  .project p {
+    color: grey;
+    font-size: 0.9em;
+  }
+  
