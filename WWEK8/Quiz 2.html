@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Column Generator</title>
+<style>
+    .column {
+        width: 200px;
+        height: 400px;
+        background-color: black;
+        margin: 10px;
+        float: left;
+    }
+</style>
+</head>
+<body>
+<button onclick="addColumn()">+</button>
+<button onclick="generateText()">Generator</button>
+<div id="container"></div>
+
+<script>
+    let columnCount = 0;
+
+    function addColumn() {
+        columnCount++;
+        let column = document.createElement("div");
+        column.className = "column";
+        column.innerText = "Column " + columnCount;
+        document.getElementById("container").appendChild(column);
+    }
+
+    function generateText() {
+        let text = "";
+        for (let i = 1; i <= columnCount; i++) {
+            text += "Column " + i + ": Some generated text.\n";
+        }
+        alert(text);
+    }
+</script>
+</body>
+</html>
